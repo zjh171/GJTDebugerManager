@@ -1,0 +1,1 @@
+../../../../../GJTDebugManager/Classes/GJTDebugerManager.h
