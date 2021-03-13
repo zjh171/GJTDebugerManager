@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GJTDebugManager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GJTDebugManager.'
+  s.summary          = 'Gojito 的 Debuger 工具管理平台'
   s.platform         = :ios
 
 # This description is used to generate tags and improve search results.
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                       Gojito 的 Debuger 工具管理平台，提供诸如切换服务器等功能。
                        DESC
 
   s.homepage         = 'https://github.com/zjh171/GJTDebugManager'
