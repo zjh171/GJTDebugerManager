@@ -1,0 +1,6 @@
+framework module GJTMvvmKit {
+  umbrella header "GJTMvvmKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

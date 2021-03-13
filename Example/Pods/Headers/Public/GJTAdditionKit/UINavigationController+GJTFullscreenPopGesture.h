@@ -1,1 +1,0 @@
-../../../../../../GJTAdditionKit/Classes/UINavigationController+GJTFullscreenPopGesture.h

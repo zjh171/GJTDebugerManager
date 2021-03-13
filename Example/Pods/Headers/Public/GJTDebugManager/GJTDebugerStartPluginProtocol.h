@@ -1,1 +1,0 @@
-../../../../../GJTDebugManager/Classes/Core/GJTDebugerStartPluginProtocol.h

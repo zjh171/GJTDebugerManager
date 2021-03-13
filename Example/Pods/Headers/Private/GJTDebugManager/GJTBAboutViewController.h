@@ -1,1 +1,0 @@
-../../../../../GJTDebugManager/Classes/Plugin/Setting/GJTBAboutViewController.h

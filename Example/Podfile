@@ -2,12 +2,10 @@
 
 platform :ios, '9.0'
 
-target 'GJTDebugManager_Example' do
-  pod 'GJTDebugManager', :path => '../'
+target 'GJTDebugerManager_Example' do
+  pod 'GJTDebugerManager', :path => '../'
 
-  pod 'GJTAdditionKit',:path => '../../GJTAdditionKit'
-  
-  target 'GJTDebugManager_Tests' do
+  target 'GJTDebugerManager_Tests' do
     inherit! :search_paths
 
     

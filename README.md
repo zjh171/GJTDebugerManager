@@ -1,9 +1,9 @@
-# GJTDebugManager
+# GJTDebugerManager
 
-[![CI Status](https://img.shields.io/travis/zjh171/GJTDebugManager.svg?style=flat)](https://travis-ci.org/zjh171/GJTDebugManager)
-[![Version](https://img.shields.io/cocoapods/v/GJTDebugManager.svg?style=flat)](https://cocoapods.org/pods/GJTDebugManager)
-[![License](https://img.shields.io/cocoapods/l/GJTDebugManager.svg?style=flat)](https://cocoapods.org/pods/GJTDebugManager)
-[![Platform](https://img.shields.io/cocoapods/p/GJTDebugManager.svg?style=flat)](https://cocoapods.org/pods/GJTDebugManager)
+[![CI Status](https://img.shields.io/travis/zjh171/GJTDebugerManager.svg?style=flat)](https://travis-ci.org/zjh171/GJTDebugerManager)
+[![Version](https://img.shields.io/cocoapods/v/GJTDebugerManager.svg?style=flat)](https://cocoapods.org/pods/GJTDebugerManager)
+[![License](https://img.shields.io/cocoapods/l/GJTDebugerManager.svg?style=flat)](https://cocoapods.org/pods/GJTDebugerManager)
+[![Platform](https://img.shields.io/cocoapods/p/GJTDebugerManager.svg?style=flat)](https://cocoapods.org/pods/GJTDebugerManager)
 
 ## Example
 
@@ -13,11 +13,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-GJTDebugManager is available through [CocoaPods](https://cocoapods.org). To install
+GJTDebugerManager is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'GJTDebugManager'
+pod 'GJTDebugerManager'
 ```
 
 ## Author
@@ -26,4 +26,4 @@ zjh171, zjh171@qq.com
 
 ## License
 
-GJTDebugManager is available under the MIT license. See the LICENSE file for more info.
+GJTDebugerManager is available under the MIT license. See the LICENSE file for more info.

@@ -1,8 +1,8 @@
 PODS:
-  - GJTAdditionKit (0.0.5)
+  - GJTAdditionKit (0.0.4)
   - GJTControlsKit (0.0.6):
     - GJTAdditionKit
-  - GJTDebugManager (0.1.0):
+  - GJTDebugerManager (0.1.0):
     - GJTAdditionKit
     - GJTControlsKit
     - GJTMvvmKit
@@ -15,30 +15,28 @@ PODS:
   - ReactiveObjC (3.1.1)
 
 DEPENDENCIES:
-  - GJTAdditionKit (from `../../GJTAdditionKit`)
-  - GJTDebugManager (from `../`)
+  - GJTDebugerManager (from `../`)
 
 SPEC REPOS:
   trunk:
+    - GJTAdditionKit
     - GJTControlsKit
     - GJTMvvmKit
     - Masonry
     - ReactiveObjC
 
 EXTERNAL SOURCES:
-  GJTAdditionKit:
-    :path: "../../GJTAdditionKit"
-  GJTDebugManager:
+  GJTDebugerManager:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GJTAdditionKit: 3a2e73b61ae4d52369cf3a069f8ffad741b1084c
+  GJTAdditionKit: 6ee41661512e4aa2142469ad018f387d30eb850b
   GJTControlsKit: 58f942e8c2b6401ba26ff25d5210dd8acf15fc54
-  GJTDebugManager: ac5845cdc3cd363786a9aac9c6bf8502ac0a8fbc
+  GJTDebugerManager: 4909a8569a6afdad7139ea1be50ae70fed919197
   GJTMvvmKit: f613e88767f46d2b88822e09787f8b4da6976b37
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
-PODFILE CHECKSUM: 4b40a3491ef121fbd1899b7ee9ada71a2dfd4771
+PODFILE CHECKSUM: 5ac79e246657ea95b71876828e26b126eb926e3f
 
 COCOAPODS: 1.10.1
