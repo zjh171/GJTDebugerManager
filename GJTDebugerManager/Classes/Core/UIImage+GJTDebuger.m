@@ -7,6 +7,9 @@
 
 #import "UIImage+GJTDebuger.h"
 
+NSString *const kGJTDebugerManagerBundleName = @"GJTDebugerManager";
+
+
 @implementation UIImage(GJTDebuger)
 
 
@@ -16,15 +19,15 @@
         NSURL *url = [bundle URLForResource:@"DoraemonKit" withExtension:@"bundle"];
         //release 环境下，没有 DoraemonManager
         if (bundle == nil || url == nil) {
-            bundle = [NSBundle bundleForClass:NSClassFromString(@"GJTDebugerManager")];
-            url = [bundle URLForResource:@"GJTDebugerManager" withExtension:@"bundle"];
+            bundle = [NSBundle bundleForClass:NSClassFromString(kGJTDebugerManagerBundleName)];
+            url = [bundle URLForResource:kGJTDebugerManagerBundleName withExtension:@"bundle"];
         }
         
         NSString *imageName = nil;
         UIImage *image = nil;
         if (url != nil ) {
             NSBundle *imageBundle = [NSBundle bundleWithURL:url];
-            
+            //如果非 xcassets 方式
             CGFloat scale = [UIScreen mainScreen].scale;
             if (ABS(scale-3) <= 0.001){
                 imageName = [NSString stringWithFormat:@"%@@3x",name];
@@ -41,9 +44,18 @@
                 }
             }
             
+            //如果 xcassets 方式
             if (!image) {
-                image = [UIImage imageNamed:@"AppIcon"];
+                bundle = [NSBundle bundleForClass:NSClassFromString(kGJTDebugerManagerBundleName)];
+                url = [bundle URLForResource:kGJTDebugerManagerBundleName withExtension:@"bundle"];
+                NSBundle *imageBundle = [NSBundle bundleWithURL:url];
+                image = [UIImage imageNamed:name inBundle:imageBundle compatibleWithTraitCollection:nil];
             }
+            
+            if (!image) {
+                image = [UIImage imageNamed:name];
+            }
+            
         } else {
             image = [UIImage imageNamed:name];
             if (image == nil) {

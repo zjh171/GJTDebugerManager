@@ -35,10 +35,9 @@
 
 
 typedef NS_ENUM(NSUInteger, GJTDebugerServerType) {
-    GJTDebugerServerTypeNone          = 0,
-    GJTDebugerServerTypeProduce       = 1,
-    GJTDebugerServerTypePreProduce    = 2,
-    GJTDebugerServerTypeDaily         = 3,
+    GJTDebugerServerTypeProduce       = 0,
+    GJTDebugerServerTypePreProduce    = 1,
+    GJTDebugerServerTypeDaily         = 2,
 };
 
 

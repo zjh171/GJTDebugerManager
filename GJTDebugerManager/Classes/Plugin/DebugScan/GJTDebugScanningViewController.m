@@ -12,7 +12,7 @@
 #import "GJTDebugerManager.h"
 #import <GJTAdditionKit/GJTAdditionKit.h>
 
-//#import <ELMFoundation/ELMFoundation.h>
+//#import <GJTFoundation/GJTFoundation.h>
 #import "GJTDebugerQRCodeTool.h"
 
 #define WEAKSELF(weakSelf)  __weak __typeof(&*self)weakSelf = self;

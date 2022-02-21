@@ -92,9 +92,6 @@
     cell.textLabel.font = [UIFont systemFontOfSize:16];
     cell.textLabel.textColor = [UIColor blackColor];
     GJTDebugerServerType serverType = [[NSUserDefaults standardUserDefaults] integerForKey:GJTDebugerServerTypeName];
-    if (serverType == GJTDebugerServerTypeNone) {
-        serverType =  GJTDebugerServerTypeProduce;
-    }
     if ([item[@"env"] integerValue] == serverType) {
         cell.textLabel.text = [item[@"envName"] stringByAppendingString:@"✔️"];
     }else{
